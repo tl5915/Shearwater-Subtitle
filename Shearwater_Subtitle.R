@@ -100,8 +100,8 @@ shearwater_srt_shift <- function(input_csv, output_srt, shift_seconds) {
 
 source("Shearwater_Subtitle.R")
 
-# Shift timestamp forward by 42s:
-shearwater_srt_shift("input.csv", "output.srt", 42)
+# Shift timestamp forward by 37s:
+shearwater_srt_shift("input.csv", "output.srt", 37)
 
-# Shift timestamp backward by 10s
-shearwater_srt_shift("input.csv", "output.srt", -10)
+# Shift timestamp backward by 35s
+shearwater_srt_shift("input.csv", "output.srt", -35)
